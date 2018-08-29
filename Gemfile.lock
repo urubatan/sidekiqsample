@@ -1,0 +1,30 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.2)
+    connection_pool (2.2.2)
+    method_source (0.9.0)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    rack (2.0.5)
+    rack-protection (2.0.3)
+      rack
+    redis (4.0.2)
+    redis-namespace (1.6.0)
+      redis (>= 3.0.4)
+    sidekiq (5.2.1)
+      connection_pool (~> 2.2, >= 2.2.2)
+      rack-protection (>= 1.5.0)
+      redis (>= 3.3.5, < 5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pry
+  redis-namespace
+  sidekiq
+
+BUNDLED WITH
+   1.16.1
